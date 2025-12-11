@@ -6,8 +6,8 @@ pages_build_output_dir = ".vercel/output/static"
 # 默认 D1 数据库配置（用于命令行操作）
 [[d1_databases]]
 binding = "DB"
-database_name = "katelyatv"
-database_id = "373f03b2-ad4f-4afc-aa07-53863e823e80"
+database_name = "katelyatv-db"
+database_id = "f70db4bd-8791-4534-8e38-bbb8430c50fb"
 
 # 生产环境配置
 [env.production]
@@ -16,8 +16,8 @@ name = "katelyatv"
 # 生产环境 D1 数据库配置
 [[env.production.d1_databases]]
 binding = "DB"
-database_name = "katelyatv"
-database_id = "373f03b2-ad4f-4afc-aa07-53863e823e80"
+database_name = "katelyatv-db"
+database_id = "f70db4bd-8791-4534-8e38-bbb8430c50fb"
 
 # 生产环境变量
 [env.production.vars]
@@ -46,8 +46,8 @@ name = "katelyatv-preview"
 # 预览环境 D1 数据库配置
 [[env.preview.d1_databases]]
 binding = "DB"
-database_name = "katelyatv"
-database_id = "373f03b2-ad4f-4afc-aa07-53863e823e80"
+database_name = "katelyatv-db"
+database_id = "f70db4bd-8791-4534-8e38-bbb8430c50fb"
 
 # 预览环境变量
 [env.preview.vars]
